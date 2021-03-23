@@ -1,6 +1,7 @@
-package com.wjl.designpatterns.creational.factory.shapefactory;
+package com.wjl.designpatterns.creational.abstractfactory.shapefactory;
 
-
+import com.wjl.designpatterns.creational.abstractfactory.AbstractFactory;
+import com.wjl.designpatterns.creational.abstractfactory.colorfactory.Color;
 import org.springframework.util.StringUtils;
 
 /**
@@ -9,7 +10,17 @@ import org.springframework.util.StringUtils;
  * @author wangJiaLun
  * @date 2019-04-08
  **/
-public class ShapeFactory {
+public class ShapeFactory extends AbstractFactory {
+
+    /**
+     * 获取颜色
+     *
+     * @param color
+     */
+    @Override
+    public Color getColor(String color) {
+        return null;
+    }
 
     /**
      *  根据 形状类型 返回实体类对象

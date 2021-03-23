@@ -2,7 +2,7 @@ package com.wjl.designpatterns.creational.singleton.test;
 
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-import com.wjl.demo.designpatterns.creational.singleton.LazySingleton;
+import com.wjl.designpatterns.creational.singleton.LazySingleton;
 
 import java.util.Collections;
 import java.util.HashSet;
